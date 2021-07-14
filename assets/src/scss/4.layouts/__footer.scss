@@ -4,8 +4,21 @@ footer {
   text-align: center;
   height: auto;
 
-  .social{
-    height: 3rem;
-    width: 3rem;
+  .socials {
+    display: flex;
+    justify-content: center;
+
+    .social {
+      position: relative;
+      height: 2rem;
+      width: 2rem;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-top: 2rem;
+
+      &:not(:last-child){
+        margin-right: 10px;
+      }
+    }
   }
 }
