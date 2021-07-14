@@ -1,0 +1,23 @@
+.user {
+  position: relative;
+  height: 40vw;
+  width: 40vw;
+  box-shadow: 0 0 10px #fff;
+  border-radius: 50%;
+  overflow: hidden;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: var(--trans__black);
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,13 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+
+  .card {
+    min-height: 200px;
+    height: auto;
+    background-color: hsla(0, 17%, 7%, 0.816);
+    padding: 2rem;word-wrap: break-word;
+  }
+}

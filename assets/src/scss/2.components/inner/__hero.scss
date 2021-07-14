@@ -1,0 +1,17 @@
+.hero {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 5rem);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-size: calc(9vw - 18px);
+    line-height: 1.2;
+  }
+  span {
+    display: block;
+  }
+}
